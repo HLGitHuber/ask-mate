@@ -42,7 +42,7 @@ To set up and run the AskMate project, follow these steps:
 
 1. **Clone the Repository:** Clone the project repository to your local machine.
    ```shell
-   git clone <repository-url>
+   git clone https://github.com/HLGitHuber/ask-mate.git
 
 2. **Database Setup:** Ensure you have a PostgreSQL database set up. You can use the sample_data script to populate the database with initial data.
 
