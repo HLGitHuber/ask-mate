@@ -1,0 +1,68 @@
+<head>
+    {# Required meta tags #}
+    <meta charset="utf-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>AskMate</title>
+    {# Bootstrap CSS v5.2.1 #}
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+        crossorigin="anonymous"
+    />
+    {# jQuery #}
+    <script
+        src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+        crossorigin="anonymous"
+    ></script>
+    {# Data Tables scripts #}
+    <script
+        type="text/javascript"
+        charset="utf8"
+        src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"
+    ></script>
+    {# Custom javascript #}
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    {# Data Tables styles #}
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css"
+    />
+    {# Custom stylesheet #}
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    />
+    {# Font Awesome icons #}
+    <script
+        src="https://kit.fontawesome.com/a52c965a3f.js"
+        crossorigin="anonymous"
+    ></script>
+    {# Favicons #}
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="{{ url_for('static', filename='/favicon/apple-touch-icon.png') }}"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="{{ url_for('static', filename='/favicon/favicon-32x32.png') }}"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="{{ url_for('static', filename='/favicon/favicon-16x16.png') }}"
+    />
+    <link
+        rel="manifest"
+        href="{{ url_for('static', filename='/favicon/site.webmanifest') }}"
+    />
+</head>
